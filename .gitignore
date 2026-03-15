@@ -1,0 +1,31 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambienti virtuali (nomi comuni)
+venv/
+.venv/
+env/
+bin/
+lib/
+
+# Anaconda / Navigator specific files
+anaconda_projects/
+project_filebrowser.db
+
+# Generic SQLite databases
+*.db
+*.sqlite
+
+# File di sistema (macOS / Windows)
+.DS_Store
+Thumbs.db
+
+# Dati pesanti o temporanei (opzionale)
+*.log
+data_raw/
